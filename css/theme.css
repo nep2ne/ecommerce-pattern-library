@@ -1,0 +1,14 @@
+:root {
+  --color-primary: #112f3b;;
+  --color-secondary: #d5ada6;
+  --color-accent-dark: #2b7379;
+  --color-accent-light: #6bbab5;
+  --color-neutral: #fae3d6;
+
+  --font-primary: "Noto Sans", Arial, sans-serif;
+  --font-secondary: "Meddon", Georgia, serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
