@@ -3,7 +3,8 @@
   --color-secondary: #d5ada6;
   --color-accent-dark: #2b7379;
   --color-accent-light: #6bbab5;
-  --color-neutral: #fae3d6;
+  --color-secondary-light: #fae3d6;
+  --color-secondary-opposite: #fff;
 
   --font-primary: "Noto Sans", Arial, sans-serif;
   --font-secondary: "Meddon", Georgia, serif;
@@ -11,4 +12,70 @@
 
 html {
   font-family: var(--font-primary);
+}
+
+/* @utility Apply secondary typeface */
+.font-secondary {
+  font-family: var(--font-secondary);
+}
+
+/* @utility Apply dark background accent color */
+.section-dark {
+  background-color: var(--color-accent-dark);
+}
+
+h1 {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-accent-dark);
+  font-family: var(--font-primary);
+  font-weight: 700;
+}
+
+a:hover {
+  color: var(--color-accent-light);
+}
+
+dt {
+  font-weight: 700;
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+}
+
+dd {
+  font-weight: 400;
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+}
+
+ul, ol, dl {
+  color: var(--color-primary);
+  list-style-type: none;
+}
+
+blockquote, q {
+  color: var(--color-primary);
+}
+
+cite {
+  color: var(--color-primary);
+  font-style: italic;
+}
+
+p, em, strong, del, ins, abbr, dfn, i, b, s, u {
+  color: var(--color-primary);
+}
+
+mark {
+  background-color: var(--color-secondary-light);
+  color: var(--color-primary);
 }

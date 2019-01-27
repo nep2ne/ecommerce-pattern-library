@@ -1,0 +1,14 @@
+title: "Buttons"
+description: |
+  Buttons are designed to draw the attention of the user towards purchasing a product.
+
+patterns:
+  basic:
+    title: "Basic button"
+    description: |
+      Basic buttons are styled to focus the attention of the user on purchasing actions.
+
+  ghost:
+    title: "Ghost button"
+    description: |
+      Ghost buttons are used in the navigation bar.
