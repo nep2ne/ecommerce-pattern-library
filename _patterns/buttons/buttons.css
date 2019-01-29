@@ -5,6 +5,13 @@
   font-weight: 700;
 }
 
+.btn:hover {
+  background-color: var(--color-primary);
+  color: var(--color-secondary-opposite);
+  border: 3px solid var(--color-primary);
+  font-weight: 700;
+}
+
 .btn-ghost {
   background-color: transparent;
   color: var(--color-primary);
@@ -20,5 +27,11 @@
 .btn-light {
   background-color: var(--color-accent-dark);
   border: 2px solid var(--color-accent-dark);
+  color: var(--color-secondary-opposite);
+}
+
+.btn-light:hover {
+  background-color: var(--color-primary);
+  border: 2px solid var(--color-primary);
   color: var(--color-secondary-opposite);
 }

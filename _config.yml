@@ -13,15 +13,15 @@ patternbot:
     patterns:
       brand.logos: "--color-secondary"
 
-rationales:
-  colors.primary: |
-    The primary color represents the serious, ordered aspects of organization and planning. The primary color is used for most text, except for buttons and hover-state buttons, the footer, where text is reversed out on a dark background, and some of the placeholder text inside the form fields on the checkout form.
+  rationales:
+    colors.primary: |
+      The primary color represents the serious, ordered aspects of organization and planning. The primary color is used for most text, except for buttons and hover-state buttons, the footer, where text is reversed out on a dark background, and some of the placeholder text inside the form fields on the checkout form.
 
-  colors.secondary: |
-    The secondary color represents the feminine, playful aspect of journalling and creativity. It is used as a background color on every button related to purchasing an item. The secondary color is also used for the logo and iconography, as well as the rating system.
+    colors.secondary: |
+      The secondary color represents the feminine, playful aspect of journalling and creativity. It is used as a background color on every button related to purchasing an item. The secondary color is also used for the logo and iconography, as well as the rating system.
 
-  typefaces.primary: |
-    The primary typeface is serious and legible. It is to be used throughout the website, except for the name of the organization at the top of the page.
+    typefaces.primary: |
+      The primary typeface is serious and legible. It is to be used throughout the website, except for the name of the organization at the top of the page.
 
-  typefaces.secondary: |
-    The secondary typeface is playful and feminine, and is to be used only for the name of the organization at the top of the page.
+    typefaces.secondary: |
+      The secondary typeface is playful and feminine, and is to be used only for the name of the organization at the top of the page.
