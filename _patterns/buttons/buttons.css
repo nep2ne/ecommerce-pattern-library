@@ -6,7 +6,7 @@
 }
 
 .btn-ghost {
-  background-color: var(--color-secondary-opposite);
+  background-color: transparent;
   color: var(--color-primary);
   border: 2px solid var(--color-primary);
 }
