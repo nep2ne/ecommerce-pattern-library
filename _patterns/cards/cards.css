@@ -1,0 +1,34 @@
+.card {
+  background-color: var(--color-secondary-opposite);
+  color: var(--color-primary);
+  border-radius: 8px;
+  border: 2px solid var(--color-secondary-opposite);
+}
+
+.basic-card {
+  background-color: var(--color-secondary-opposite);
+  color: var(--color-primary);
+  border-radius: 8px;
+  border: 2px solid var(--color-secondary-opposite);
+}
+
+.image-card {
+  background-color: var(--color-secondary-opposite);
+  color: var(--color-primary);
+  border-radius: 8px;
+  border: 2px solid var(--color-secondary-opposite);
+}
+
+.icon-card {
+  background-color: var(--color-secondary-opposite);
+  color: var(--color-primary);
+  border-radius: 8px;
+  border: 2px solid var(--color-secondary-opposite);
+}
+
+.product-card {
+  background-color: var(--color-secondary-opposite);
+  color: var(--color-primary);
+  border-radius: 8px;
+  border: 2px solid var(--color-secondary-opposite);
+}
