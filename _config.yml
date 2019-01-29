@@ -8,6 +8,7 @@ patternbot:
   font_url: "https://fonts.googleapis.com/css?family=Meddon|Noto+Sans:400,400i,700"
   colors:
     background: "--color-secondary-opposite"
+    accent: "--color-secondary"
 
     patterns:
       brand.logos: "--color-secondary"
