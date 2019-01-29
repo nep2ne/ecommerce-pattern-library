@@ -5,13 +5,13 @@ patternbot:
   title: "Lovely Planners"
   description: |
     An online store selling dated and undated planners, journals and notebooks
-  font_url: "https://fonts.googleapis.com/css?family=Meddon|Noto+Sans:400,400i,700"
+  font_url: "https://fonts.googleapis.com/css?family=Oswald:300,400,600,700"
   colors:
     background: "--color-secondary-opposite"
     accent: "--color-secondary"
 
     patterns:
-      brand.logos: "--color-secondary"
+      brand.logos: "--color-secondary-opposite"
 
   rationales:
     colors.primary: |
@@ -21,7 +21,7 @@ patternbot:
       The secondary color represents the feminine, playful aspect of journalling and creativity. It is used as a background color on every button related to purchasing an item. The secondary color is also used for the logo and iconography, as well as the rating system.
 
     typefaces.primary: |
-      The primary typeface is serious and legible. It is to be used throughout the website, except for the name of the organization at the top of the page.
+      The primary typeface is serious and legible. It is to be used for all body copy.
 
     typefaces.secondary: |
-      The secondary typeface is playful and feminine, and is to be used only for the name of the organization at the top of the page.
+      The secondary typeface is narrow and playful, and is to be used for headings.

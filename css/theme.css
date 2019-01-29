@@ -7,7 +7,7 @@
   --color-secondary-opposite: #fff;
 
   --font-primary: "Noto Sans", Arial, sans-serif;
-  --font-secondary: "Meddon", Georgia, serif;
+  --font-secondary: "Oswald", Arial, sans-serif;
 }
 
 html {
@@ -27,11 +27,14 @@ html {
 h1 {
   font-family: var(--font-secondary);
   color: var(--color-primary);
+  text-transform: uppercase;
+  font-weight: lighter;
 }
 
 h2, h3, h4, h5, h6 {
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
   color: var(--color-primary);
+  text-transform: uppercase;
 }
 
 a {
