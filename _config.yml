@@ -4,7 +4,7 @@ theme: jekyll_patternbot
 patternbot:
   title: "Lovely Planners"
   description: |
-    An online store selling dated and undated planners, journals and notebooks
+    An online store selling pretty planners, journals and notebooks.
   font_url: "https://fonts.googleapis.com/css?family=Oswald:300,400,600,700"
   colors:
     background: "--color-secondary-opposite"
@@ -15,13 +15,16 @@ patternbot:
 
   rationales:
     colors.primary: |
-      The primary color represents the serious, ordered aspects of organization and planning. The primary color is used for most text, except for buttons and hover-state buttons, the footer, where text is reversed out on a dark background, and some of the placeholder text inside the form fields on the checkout form.
+      The primary colour represents the serious, ordered aspects of organization and planning. The primary colour is used for most text, except for buttons and hover-state buttons, the footer, where text is reversed out on a dark background, and some of the placeholder text inside the form fields on the checkout form.
 
     colors.secondary: |
-      The secondary color represents the feminine, playful aspect of journalling and creativity. It is used as a background color on every button related to purchasing an item. The secondary color is also used for the logo and iconography, as well as the rating system.
+      The secondary colours represents the feminine, playful aspect of journalling and creativity. The darker secondary colour is used as a background color on every button related to purchasing an item. The dark secondary colour is also used for the logo and iconography, as well as the rating system. The lighter secondary colour is used sparingly, as dividing elements on several pages.
 
     typefaces.primary: |
       The primary typeface is serious and legible. It is to be used for all body copy.
 
     typefaces.secondary: |
       The secondary typeface is narrow and playful, and is to be used for headings.
+
+    colors.accent: |
+      The accent colours have been chosen to provide contrast and dark elements to the page. The dark accent colour is to be used for buttons in the form and for the footer. The light accent colour is to be used for horizontal rule dividers on the form pages and as a hover state colour for the buttons on the form pages.

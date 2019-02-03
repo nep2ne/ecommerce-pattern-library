@@ -1,0 +1,41 @@
+.transparent-img {
+  background-image: url("/images/banner-image.png");
+  height: 350px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.blur-effect {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, .8), rgba(255, 255, 255, .4));
+}
+
+.absolute-banner {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.transparent-white {
+  background-color: rgba(255, 255, 255, .75);
+  color: var(--color-primary);
+}
+
+.icon-hover:hover path, .icon-hover:hover circle {
+  fill: var(--color-accent-dark);
+}
+
+.icon-hover:hover polyline {
+  stroke: var(--color-accent-dark);
+}
+
+.logo {
+  width: 90%;
+  height: 90%;
+}
+
+.logo:hover path {
+  fill: var(--color-accent-dark);
+}

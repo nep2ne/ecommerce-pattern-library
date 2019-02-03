@@ -16,6 +16,7 @@
   background-color: transparent;
   color: var(--color-primary);
   border: 2px solid var(--color-primary);
+  border-radius: 8px;
 }
 
 .btn-ghost:hover {
