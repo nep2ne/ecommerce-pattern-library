@@ -9,20 +9,20 @@
   background-color: var(--color-primary);
   color: var(--color-secondary-opposite);
   border: 3px solid var(--color-primary);
-  font-weight: 700;
 }
 
 .btn-ghost {
   background-color: transparent;
   color: var(--color-primary);
-  border: 2px solid var(--color-primary);
-  border-radius: 8px;
+  border: transparent;
+  font: var(--font-secondary);
+  text-transform: uppercase;
 }
 
 .btn-ghost:hover {
   background-color: var(--color-accent-dark);
   color: var(--color-secondary-opposite);
-  border: 2px solid var(--color-accent-dark);
+  border: transparent;
 }
 
 .btn-light {
