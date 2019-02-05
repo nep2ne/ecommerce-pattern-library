@@ -12,6 +12,7 @@ patternbot:
 
     patterns:
       brand.logos: "--color-secondary-opposite"
+      icons.icons: "--color-secondary-light"
 
   rationales:
     colors.primary: |

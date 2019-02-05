@@ -1,6 +1,6 @@
 .transparent-img {
   background-image: url("/images/banner-image.png");
-  height: 350px;
+  height: 500px;
   background-size: contain;
   background-repeat: no-repeat;
   position: relative;
@@ -21,21 +21,5 @@
 .transparent-white {
   background-color: rgba(255, 255, 255, .75);
   color: var(--color-primary);
-}
-
-.icon-hover:hover path, .icon-hover:hover circle {
-  fill: var(--color-accent-dark);
-}
-
-.icon-hover:hover polyline {
-  stroke: var(--color-accent-dark);
-}
-
-.logo {
-  width: 90%;
-  height: 90%;
-}
-
-.logo:hover path {
-  fill: var(--color-accent-dark);
+  width: 100%;
 }
