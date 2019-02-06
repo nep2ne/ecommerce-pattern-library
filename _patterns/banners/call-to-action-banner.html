@@ -1,11 +1,14 @@
 <header>
   <div class="transparent-img relative">
+    <picture class="img-flex">
+      <source media="(min-width: 60em)" srcset="/images/banner-l.jpg">
+      <source media="(min-width: 35em)" srcset="/images/banner-m.jpg">
+      <img src="/images/banner-s.jpg" alt="">
+    </picture>
     <div class="absolute-banner transparent-white island pin-lc">
       <h2 class="push-1-2">The future belongs to those who plan.</h2>
       <p class="tera push-1-2">Find the right planning tools for you!</p>
-      <div>
-        {% pattern buttons/basic %}
-      </div>
+      {% pattern buttons/basic %}
     </div>
   </div>
 </header>

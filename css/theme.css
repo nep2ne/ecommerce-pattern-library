@@ -1,9 +1,9 @@
 :root {
-  --color-primary: #112f3b;;
-  --color-secondary: #d5ada6;
-  --color-accent-dark: #2b7379;
-  --color-accent-light: #6bbab5;
-  --color-secondary-light: #fae3d6;
+  --color-primary: #2D2033;
+  --color-secondary: #8a5b51;
+  --color-accent-dark: #7a5989;
+  --color-accent-light: #d0b4cb;
+  --color-secondary-light: #feedd3;
   --color-secondary-opposite: #fff;
 
   --font-primary: "Noto Sans", Arial, sans-serif;

@@ -12,7 +12,10 @@ patternbot:
 
     patterns:
       brand.logos: "--color-secondary-opposite"
-      icons.icons: "--color-secondary-light"
+      icons.icons.facebook-icon: "--color-accent-dark"
+      icons.icons.pinterest-icon: "--color-accent-dark"
+      icons.icons.twitter-icon: "--color-accent-dark"
+      icons.icons.instagram-icon: "--color-accent-dark"
 
   rationales:
     colors.primary: |

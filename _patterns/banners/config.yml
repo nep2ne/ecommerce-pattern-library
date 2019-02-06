@@ -1,0 +1,14 @@
+title: "Banners"
+description: |
+  Banners are designed to provide a visual element that draws the attention of the user. They sometimes serve as a content divider.
+
+patterns:
+  call-to-action-banner:
+    title: "Call-to-action banner"
+    description: |
+      Call-to-action banners are used on the homepage of the site to direct users toward the products listed.
+
+  product-category:
+    title: "Product category banner"
+    description: |
+      Product category banners are clickable banners that lead the user towards various categories of products.

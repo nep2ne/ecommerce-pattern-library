@@ -1,8 +1,10 @@
-<div class="card image-card link-card">
-  <a href="#">
+<a href="#" class="card image-card link-card block">
     <div class="relative text-center">
-      <img class="img-flex" src="/images/banner-image.png"" alt="">
+      <picture class="img-flex">
+        <source media="(min-width: 60em)" srcset="/images/banner-l.jpg">
+        <source media="(min-width: 35em)" srcset="/images/banner-m.jpg">
+        <img src="/images/banner-s.jpg" alt="">
+      </picture>
       <h2 class="absolute link-card-caption pad-t pad-b">Journals</h2>
     </div>
-  </a>
-</div>
+</a>
