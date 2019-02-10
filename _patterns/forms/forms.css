@@ -1,4 +1,4 @@
-.radio-legend, .radio-label, .checkbox-legend, .checkbox-label, .email-input-label, .quantity-input-label, .text-input-label {
+.radio-legend, .radio-label, .checkbox-legend, .checkbox-label, .email-input-label, .quantity-input-label, .text-input-label, .address-label, .password-label, .username-label {
   color: var(--color-primary);
 }
 
@@ -10,19 +10,33 @@
   width: 10em;
 }
 
-.quantity-input-border, .text-input-border, .email-input-border {
+.quantity-input-border, .text-input-border, .email-input-border, .address-input, .search-input, .password-input, .username-input,
+[type="checkbox"] + label::before {
   border: 2px solid var(--color-accent-dark);
   border-radius: 2px;
 }
 
-input,
-textarea,
-select,
-[type="radio"] + label::before,
-[type="checkbox"] + label::before {
+[type="radio"] + label::before {
   border: 2px solid var(--color-accent-dark);
 }
 
 fieldset {
   border-top: none;
+}
+
+.left-box {
+  padding-right: .5em;
+}
+
+.right-box {
+  padding-left: .5em;
+}
+
+.search-input {
+  border-color: var(--color-accent-dark);
+  background-image: url("../images/spy-glass.svg");
+  background-repeat: no-repeat;
+  background-position: .2em center;
+  background-size: 1.2em auto;
+  padding-left: 1.5em;
 }
