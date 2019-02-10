@@ -1,0 +1,28 @@
+.radio-legend, .radio-label, .checkbox-legend, .checkbox-label, .email-input-label, .quantity-input-label, .text-input-label {
+  color: var(--color-primary);
+}
+
+.text-field-input {
+  height: 5em;
+}
+
+.quantity-input {
+  width: 10em;
+}
+
+.quantity-input-border, .text-input-border, .email-input-border {
+  border: 2px solid var(--color-accent-dark);
+  border-radius: 2px;
+}
+
+input,
+textarea,
+select,
+[type="radio"] + label::before,
+[type="checkbox"] + label::before {
+  border: 2px solid var(--color-accent-dark);
+}
+
+fieldset {
+  border-top: none;
+}
