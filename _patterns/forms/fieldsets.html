@@ -1,39 +1,76 @@
-<fieldset>
-  <legend class="giga bold">Mailing address</legend>
-  <div class="grid">
-    <div class="push left-box unit xs-1 s-1 m-1-2 l-1-2">
-      <label class="address-label kilo pad-t-1-4 pad-b-1-8" for="address">Address</label>
-      <input class="address-input" id="address" name="address" required>
-    </div>
+<form class="max-length island" action="index.html" method="post" action="#" novalidate>
 
-    <div class="push right-box unit xs-1 s-1 m-1-2 l-1-2">
-      <label class="address-label kilo pad-t-1-4 pad-b-1-8" for="city">City</label>
-      <input class="address-input" id="city" name="city" required>
-    </div>
-
-    <div class="push left-box unit xs-1 s-1 m-1-2 l-1-2">
-      <label class="address-label kilo pad-t-1-2 pad-b-1-4" for="province">Province</label>
-      <select class="address-input" id="province" name="province">
-        <option>Select a province</option>
-        <option>Alberta</option>
-        <option>British Columbia</option>
-        <option>Manitoba</option>
-        <option>New Brunswick</option>
-        <option>Newfoundland & Labrador</option>
-        <option>Northwest Territories</option>
-        <option>Nova Scotia</option>
-        <option>Nunavut</option>
-        <option>Ontario</option>
-        <option>Prince Edward Island</option>
-        <option>Québec</option>
-        <option>Saskatchewan</option>
-        <option>Yukon</option>
-      </select>
-    </div>
-
-    <div class="push right-box unit xs-1 s-1 m-1-2 l-1-2">
-      <label class="address-label kilo pad-t-1-2 pad-b-1-4" for="code">Postal code</label>
-      <input class="address-input" id="code" name="code" required>
-    </div>
+  <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+    <h5 class="push-0">
+      <i class="icon icon-error i-32"><svg><use xlink:href="/images/icons-error.svg#error" /></svg></i>
+      <span class="icon-error-label">Warning: there are items that require your attention.</span>
+    </h5>
   </div>
-</fieldset>
+
+  <fieldset>
+    <legend class="giga bold">Mailing address</legend>
+    <div class="grid">
+      <div class="push left-box unit xs-1 s-1 m-1-2 l-1-2">
+        <label class="address-label kilo pad-t-1-4 pad-b-1-8" for="address">Address</label>
+        <input class="address-input" id="address" name="address" required aria-describedby="address-error">
+        <p class="error-message kilo island-1-4 push-0" id="address-error">
+          <i class="icon icon-error i-16"><svg><use xlink:href="/images/icons-error.svg#error" /></svg></i>
+          <span class="icon-error-label">Please provide an address.</span>
+        </p>
+      </div>
+
+      <div class="push right-box unit xs-1 s-1 m-1-2 l-1-2">
+        <label class="address-label kilo pad-t-1-4 pad-b-1-8" for="city">City</label>
+        <input class="address-input" id="city" name="city" required aria-describedby="city-error">
+        <p class="error-message kilo island-1-4 push-0" id="city-error">
+          <i class="icon icon-error i-16"><svg><use xlink:href="/images/icons-error.svg#error" /></svg></i>
+          <span class="icon-error-label">Please provide a city.</span>
+        </p>
+      </div>
+
+      <div class="push left-box unit xs-1 s-1 m-1-2 l-1-2">
+        <label class="address-label kilo pad-t-1-2 pad-b-1-4" for="province">Province</label>
+        <select class="address-input" id="province" name="province" required aria-describedby="code-error">
+        <p class="error-message kilo island-1-4 push-0" id="code-error">
+          <i class="icon icon-error i-16"><svg><use xlink:href="/images/icons-error.svg#error" /></svg></i>
+          <span class="icon-error-label">Please provide a postal code.</span>
+        </p>
+          <option class="address-input">Select a province</option>
+          <option class="address-input">Alberta</option>
+          <option class="address-input">British Columbia</option>
+          <option class="address-input">Manitoba</option>
+          <option class="address-input">New Brunswick</option>
+          <option class="address-input">Newfoundland & Labrador</option>
+          <option class="address-input">Northwest Territories</option>
+          <option class="address-input">Nova Scotia</option>
+          <option class="address-input">Nunavut</option>
+          <option class="address-input">Ontario</option>
+          <option class="address-input">Prince Edward Island</option>
+          <option class="address-input">Québec</option>
+          <option class="address-input">Saskatchewan</option>
+          <option class="address-input">Yukon</option>
+        </select>
+      </div>
+
+      <div class="push right-box unit xs-1 s-1 m-1-2 l-1-2">
+        <label class="address-label kilo pad-t-1-2 pad-b-1-4" for="code">Postal code</label>
+        <input class="address-input" id="code" name="code" required aria-describedby="code-error">
+        <p class="error-message kilo island-1-4 push-0" id="code-error">
+          <i class="icon icon-error i-16"><svg><use xlink:href="/images/icons-error.svg#error" /></svg></i>
+          <span class="icon-error-label">Please provide a postal code.</span>
+        </p>
+      </div>
+
+      <div class="push unit xs-1 s-1 m-1 l-1">
+        <label class="website-label kilo pad-t-1-2 pad-b-1-4" for="url">Website <em class="flag-optional kilo normal">(optional)</em></label>
+        <input class="website-input" id="url" name="url">
+      </div>
+    </div>
+  </fieldset>
+
+
+  {% pattern buttons/form-submit %}
+
+</form>
+
+<script scr="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>

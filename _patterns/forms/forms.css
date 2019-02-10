@@ -1,4 +1,14 @@
-.radio-legend, .radio-label, .checkbox-legend, .checkbox-label, .email-input-label, .quantity-input-label, .text-input-label, .address-label, .password-label, .username-label {
+.radio-legend,
+.radio-label,
+.checkbox-legend,
+.checkbox-label,
+.email-input-label,
+.quantity-input-label,
+.text-input-label,
+.address-label,
+.password-label,
+.username-label,
+.website-label {
   color: var(--color-primary);
 }
 
@@ -10,10 +20,18 @@
   width: 10em;
 }
 
-.quantity-input-border, .text-input-border, .email-input-border, .address-input, .search-input, .password-input, .username-input,
+.quantity-input-border,
+.text-input-border,
+.email-input-border,
+.address-input,
+.search-input,
+.password-input,
+.username-input,
+.website-input,
 [type="checkbox"] + label::before {
   border: 2px solid var(--color-accent-dark);
   border-radius: 2px;
+  color: var(--color-primary);
 }
 
 [type="radio"] + label::before {
@@ -22,6 +40,17 @@
 
 fieldset {
   border-top: none;
+}
+
+.flag-optional {
+  color: var(--color-accent-dark);
+}
+
+.is-validated input:invalid,
+.is-validated input[type="checkbox"]:invalid + label::before,
+.is-validated:invalid,
+.is-validated[type="checkbox"]:invalid + label::before {
+  border-color: var(--color-warning);
 }
 
 .left-box {
@@ -36,7 +65,30 @@ fieldset {
   border-color: var(--color-accent-dark);
   background-image: url("../images/spy-glass.svg");
   background-repeat: no-repeat;
-  background-position: .2em center;
+  background-position: 24em center;
   background-size: 1.2em auto;
   padding-left: 1.5em;
+}
+
+.icon-error-label, .icon-error {
+  color: var(--color-warning);
+}
+
+.error-message {
+  display: none;
+  background-color: var(--color-secondary-light);
+  color: var(--color-warning);
+}
+
+.error-message-highlighted {
+  background-color: var(--color-secondary-opposite);
+  color: var(--color-warning);
+}
+
+.is-validated > .error-message:first-child,
+.is-validated input:invalid + .error-message,
+.is-validated input:invalid + label + .error-message,
+.is-validated:invalid + .error-message,
+.is-validated:invalid + label + .error-message {
+  display: block;
 }
