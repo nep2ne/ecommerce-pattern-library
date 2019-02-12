@@ -2,7 +2,7 @@
   background-color: var(--color-secondary);
   color: var(--color-secondary-opposite);
   border: 3px solid var(--color-secondary);
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .btn:hover {
