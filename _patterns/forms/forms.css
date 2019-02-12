@@ -48,6 +48,8 @@ fieldset {
 
 .is-validated input:invalid,
 .is-validated input[type="checkbox"]:invalid + label::before,
+.is-validated select:invalid,
+.is-validated select[type="checkbox"]:invalid + label::before,
 .is-validated:invalid,
 .is-validated[type="checkbox"]:invalid + label::before {
   border-color: var(--color-warning);
@@ -88,6 +90,8 @@ fieldset {
 .is-validated > .error-message:first-child,
 .is-validated input:invalid + .error-message,
 .is-validated input:invalid + label + .error-message,
+.is-validated select:invalid + .error-message,
+.is-validated select:invalid + label + .error-message,
 .is-validated:invalid + .error-message,
 .is-validated:invalid + label + .error-message {
   display: block;

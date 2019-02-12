@@ -31,11 +31,7 @@
       <div class="push left-box unit xs-1 s-1 m-1-2 l-1-2">
         <label class="address-label kilo pad-t-1-2 pad-b-1-4" for="province">Province</label>
         <select class="address-input" id="province" name="province" required aria-describedby="code-error">
-        <p class="error-message kilo island-1-4 push-0" id="code-error">
-          <i class="icon icon-error i-16"><svg><use xlink:href="/images/icons-error.svg#error" /></svg></i>
-          <span class="icon-error-label">Please provide a postal code.</span>
-        </p>
-          <option class="address-input">Select a province</option>
+          <option class="address-input" value="">Select a province</option>
           <option class="address-input">Alberta</option>
           <option class="address-input">British Columbia</option>
           <option class="address-input">Manitoba</option>
@@ -50,6 +46,10 @@
           <option class="address-input">Saskatchewan</option>
           <option class="address-input">Yukon</option>
         </select>
+        <p class="error-message kilo island-1-4 push-0" id="code-error">
+          <i class="icon icon-error i-16"><svg><use xlink:href="/images/icons-error.svg#error" /></svg></i>
+          <span class="icon-error-label">Please select a province.</span>
+        </p>
       </div>
 
       <div class="push right-box unit xs-1 s-1 m-1-2 l-1-2">
