@@ -1,9 +1,9 @@
 .icon-hover:hover path, .icon-hover:hover circle {
-  fill: var(--color-accent-dark);
+  fill: var(--color-primary);
 }
 
 .icon-hover:hover polyline {
-  stroke: var(--color-accent-dark);
+  stroke: var(--color-primary);
 }
 
 .logo {
@@ -13,7 +13,7 @@
 }
 
 .logo:hover path {
-  fill: var(--color-accent-dark);
+  fill: var(--color-primary);
 }
 
 .border-bottom {
