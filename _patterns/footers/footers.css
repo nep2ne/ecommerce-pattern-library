@@ -5,3 +5,7 @@
 .border-top {
   border-top: 2px solid var(--color-accent-light);
 }
+
+.reverse-text-no-hover {
+  color: var(--color-secondary-opposite);
+}
