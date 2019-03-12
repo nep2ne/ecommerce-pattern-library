@@ -7,6 +7,13 @@ patterns:
     title: "Call-to-action banner"
     description: |
       Call-to-action banners are used on the homepage of the site to direct users toward the products listed.
+    fields:
+      - name: heading
+        type: string
+        example: "The future belongs to those who plan."
+      - name: text
+        type: string
+        example: "Get started today."
 
   product-category:
     title: "Product category banner"
