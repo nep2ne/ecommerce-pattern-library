@@ -8,6 +8,13 @@ patterns:
     description: |
       Basic buttons are styled to focus the attention of the user on purchasing actions.
     width: "12em"
+    fields:
+      - name: text
+        type: string
+        example: "Shop now"
+      - name: url
+        type: url
+        example: "/products/"
 
   ghost:
     title: "Ghost button"

@@ -14,6 +14,14 @@ patterns:
       - name: text
         type: string
         example: "Get started today."
+      - name: button_text
+        type: string
+        example: "Shop now"
+        required: false
+      - name: button_url
+        type: url
+        example: "/products/"
+        required: false
 
   product-category:
     title: "Product category banner"
