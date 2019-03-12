@@ -30,3 +30,7 @@ patternbot:
 
     colors.accent: |
       The accent colours have been chosen to provide contrast and dark elements to the page. The dark accent colour is to be used for buttons in the form and for the footer. The light accent colour is to be used for horizontal rule dividers on the form pages and as a hover state colour for the buttons on the form pages.
+
+    layouts:
+      default: |
+        The default layout should be used for almost every page. It includes the website's primary header and footer.
