@@ -23,3 +23,10 @@
 .border-top {
   border-top: 2px solid var(--color-accent-light);
 }
+
+.current {
+  background-color: var(--color-accent-light);
+  color: var(--color-secondary-opposite);
+  border-radius: 2px;
+  border: none;
+}

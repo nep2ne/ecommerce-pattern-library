@@ -3,9 +3,13 @@
     <div class="unit xs-1 icon i-32 pin-rt island-1-4 push">
       <a class="gutter close" href="#"></a>
     </div>
-    <img class="island img-flex" src="/images/products/product1.jpg" alt="photo of a notebook">
-    <h2 class="push-0">Planner</h2>
-    <h4 class="push-0">$12</h4>
+    <img class="island img-flex" src="{{include.data.image}}" alt="photo of a notebook">
+    <h2 class="push-0">{{include.data.name}}</h2>
+    <h4 class="push-0">{{include.data.price}}</h4>
+    <p class="push-0">{{include.data.description}}</p>
+    <p class="push-0">{{include.data.pages}}</p>
+    <p class="push-0">{{include.data.template}}</p>
+    <p class="push-0">{{include.data.dimensions}}</p>
     <div>
       <img class="icon i-32" src="/images/heart-full.svg" alt="full heart icon">
       <img class="icon i-32" src="/images/heart-full.svg" alt="full heart icon">
@@ -15,7 +19,7 @@
     </div>
     <p class="milli">234 reviews</p>
     <div class="text-center">
-      {% pattern buttons/basic %}
+      {% pattern buttons/basic text="More details" url=include.data.url %}
     </div>
   </a>
 </div>

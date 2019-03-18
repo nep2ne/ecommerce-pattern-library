@@ -34,3 +34,13 @@ patternbot:
     layouts:
       default: |
         The default layout should be used for almost every page. It includes the website's primary header and footer.
+
+collections:
+  products:
+    output: true
+
+defaults:
+  - scope:
+      path: _products
+    values:
+      layout: product

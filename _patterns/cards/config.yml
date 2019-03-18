@@ -1,0 +1,11 @@
+patterns:
+  product-card:
+    width: 400
+    description: |
+      Product cards are used on teh product listing page to display each available product.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product

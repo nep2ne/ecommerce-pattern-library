@@ -8,7 +8,7 @@
     <div class="absolute-banner transparent-white island pin-lc">
       <h2 class="push-1-2">{{include.heading}}</h2>
       <p class="tera push-1-2">{{include.text}}</p>
-      {% if include.button_url $}
+      {% if include.button_url %}
         {% pattern buttons/basic text="Shop now" url="/products/" %}
       {% endif %}
     </div>
