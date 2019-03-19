@@ -1,0 +1,25 @@
+title: "Navigations"
+description: |
+  Navigations allow the user to link to various content on a page and to link to other pages.
+
+patterns:
+  social-media-nav:
+    title: "Social media navigation"
+    description: |
+      The social media nav is placed in the main footer and allows users to link to the store's social media sites.
+  breadcrumbs:
+    title: "Breadcrumbs"
+    description: |
+      The breadcrumbs navigation menu appears at the top of the form pages and allows the user to navigate back and forth through the form completion steps.
+  main-footer-nav:
+    title: "Main footer navigation"
+    description: |
+      The main footer navigation is placed in the main footer and allows users to link to the various pages of the store. At a small screen size, this navigation would not appear on the page.
+  previous-page-nav:
+    title: "Previous page navigation"
+    description: |
+      The previous page navigation appears on the product details page and allows the user to return to the products list page.
+  form-footer-nav:
+    title: "Form footer"
+    description: |
+      The form footer appears on every page of the checkout form.

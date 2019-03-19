@@ -1,0 +1,37 @@
+title: "Forms"
+description: |
+  Forms are used in the check-out process for the user to add shipping information and payment information.
+
+patterns:
+  checkbox:
+    title: "Checkbox"
+    description: |
+      Checkboxes are used to allow users to toggle a request on and off, such as when asking the user to subscribe to a service or opt-in to receive a newsletter.
+  radio-button:
+    title: "Radio button"
+    description: |
+      Radio buttons allow the user to choose between multiple options, such as payment methods or which address to use for shipping.
+  quantity-input:
+    title: "Quantity input"
+    description: |
+      Quantity input fields allow users to enter a numerical value corresponding to the number of items they would like to add to their order.
+  text-input:
+    title: "Text input"
+    description: |
+      Text input fields are used to gather information from users such as discount codes, credit card number, and cardholder name.
+  email-input:
+    title: "Email input"
+    description: |
+      Email input fields are used to allow the user to input their email address.
+  search-box:
+    title: "Search box"
+    description: |
+      The search box allows the user to search through the content of the website.
+  fieldsets:
+    title: "Field sets"
+    description: |
+      Field sets allow the user to input groups of information, such as address, city, province, postal code, and web address.
+  login:
+    title: "Login fields"
+    description: |
+      Login fields allow the user to add their username and password in order to login to the website.

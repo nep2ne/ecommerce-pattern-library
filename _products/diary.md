@@ -1,5 +1,5 @@
 ---
-name: "diary"
+name: "rustic notebook"
 description: |
   A diary to jot down your innermost thoughts and aspirations.
 non_conflict: false

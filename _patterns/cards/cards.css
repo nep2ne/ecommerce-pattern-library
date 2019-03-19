@@ -27,7 +27,7 @@
 }
 
 .product-card {
-  background-color: var(--color-secondary-opposite);
+  background-color: var(--color-secondary-light);
   color: var(--color-primary);
   border-radius: 8px;
   border: 2px solid var(--color-secondary-opposite);

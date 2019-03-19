@@ -1,11 +1,24 @@
 patterns:
   product-card:
+    title: Product card
     width: 400
     description: |
-      Product cards are used on teh product listing page to display each available product.
+      Product cards are used on the product list page to display each available product. Three product cards are also featured on the homepage.
     fields:
       - name: data
         type: object
         data:
           source: "site.products[0]"
           type: Product
+  cart-card:
+    title: Cart card
+    description: |
+      The cart card is used to display the contents of the shopping cart when the user either clicks on the shopping cart icon in the navigation menu.
+  product-details-card:
+    title: Product details card
+    description: |
+      The product details card provides details about a product. Users access the product details card when they click on "more details" from the products page. This card includes a navigation to return to the previous page.
+  image-card:
+    title: Image card
+    description: |
+      The image card is used to navigate to categories of products. It is clickable and includes the name of the category and a background image.

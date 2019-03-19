@@ -17,7 +17,7 @@
 }
 
 .quantity-input {
-  width: 10em;
+  width: 4em;
 }
 
 .quantity-input-border,
@@ -95,4 +95,8 @@ fieldset {
 .is-validated:invalid + .error-message,
 .is-validated:invalid + label + .error-message {
   display: block;
+}
+
+.space-right {
+  padding-right: .5rem;
 }
