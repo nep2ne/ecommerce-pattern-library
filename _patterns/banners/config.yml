@@ -27,3 +27,7 @@ patterns:
     title: "Product category banner"
     description: |
       Product category banners are clickable banners that lead the user towards various categories of products.
+  sale-banner:
+    title: Sale banner
+    description: |
+      The sale banner is intended to attract the viewer's attention. It displays information about an ongoing sale event and has an animated hover state.

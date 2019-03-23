@@ -1,0 +1,9 @@
+patterns:
+  basic-nav:
+    title: Primary header
+    description: |
+      The basic navigation menu header appears at the top of the homepage. It includes a logo/wordmark, links to other pages, as well as a search icon and a cart icon.
+  nav-with-link-to-story:
+    title: Secondary header
+    description: |
+      The secondary navigation menu appears at the top of every page except the homepage.

@@ -7,7 +7,6 @@ patterns:
     title: "Basic button"
     description: |
       Basic buttons are styled to focus the attention of the user on purchasing actions.
-    width: "12em"
     fields:
       - name: text
         type: string
@@ -20,11 +19,13 @@ patterns:
     title: "Ghost button"
     description: |
       Ghost buttons are used in the navigation bar.
-    width: "12em"
 
   light:
     title: "Light button"
     description: |
-      Light buttons will be used on the form pages, for applying discounts and submitting the form.
-    width: "12em"
-    background: "--color-secondary-light"
+      Light buttons will be used on the form pages, for applying discounts.
+
+  form-submit:
+    title: "Form submit button"
+    description: |
+      Form submit buttons will be used on the form pages, for submitting the form.
