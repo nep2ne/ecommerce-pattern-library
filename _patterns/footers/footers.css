@@ -9,3 +9,16 @@
 .reverse-text-no-hover {
   color: var(--color-secondary-opposite);
 }
+
+.search-bar-footer {
+  background-color: var(--color-secondary-opposite);
+  border: none;
+  height: 1.5em;
+  border-radius: 12px;
+  color: var(--color-primary);
+  width: 200px;
+}
+
+.search-btn:hover .search-bar-footer {
+
+}
