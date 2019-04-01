@@ -18,6 +18,12 @@ patterns:
     title: Product details card
     description: |
       The product details card provides details about a product. Users access the product details card when they click on "more details" from the products page. This card includes a navigation to return to the previous page.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
   image-card:
     title: Image card
     description: |
