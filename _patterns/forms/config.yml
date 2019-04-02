@@ -92,3 +92,7 @@ patterns:
       - name: label
         type: string
         example: "Payment method"
+  province:
+    title: "Province"
+    description: |
+      Province dropdown menus are used to select a province.
