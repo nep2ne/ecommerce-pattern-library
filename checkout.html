@@ -6,6 +6,7 @@ layout: default-with-link-to-story
     <section class="unit xs-1 s-1 m-1-2 gutter">
       {% pattern navigations/breadcrumbs %}
       <form class="island" action="index.html" method="post" novalidate>
+        {% pattern forms/overall-error-message %}
         <fieldset>
           {% pattern forms/legend label="Shipping Info" %}
           <div class="grid">
