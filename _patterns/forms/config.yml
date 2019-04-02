@@ -7,10 +7,38 @@ patterns:
     title: "Checkbox"
     description: |
       Checkboxes are used to allow users to toggle a request on and off, such as when asking the user to subscribe to a service or opt-in to receive a newsletter.
+    fields:
+      - name: label
+        type: string
+        example: "Keep me up to date on news and exclusive offers"
+      - name: id
+        type: string
+        example: "1"
+  checkbox-req:
+    title: "Text input required"
+    description: |
+      Checkboxes are used to allow users to toggle a request on and off, such as when asking the user to subscribe to a service or opt-in to receive a newsletter--this is a required field.
+    fields:
+      - name: label
+        type: string
+        example: "Keep me up to date on news and exclusive offers"
+      - name: id
+        type: string
+        example: "1"
+      - name: warning_msg
+        type: string
+        example: "Please check an option."
   radio-button:
     title: "Radio button"
     description: |
       Radio buttons allow the user to choose between multiple options, such as payment methods or which address to use for shipping.
+    fields:
+      - name: label
+        type: string
+        example: "Credit card"
+      - name: id
+        type: string
+        example: "1"
   quantity-input:
     title: "Quantity input"
     description: |
@@ -19,6 +47,27 @@ patterns:
     title: "Text input"
     description: |
       Text input fields are used to gather information from users such as discount codes, credit card number, and cardholder name.
+    fields:
+      - name: label
+        type: string
+        example: "First Name"
+      - name: id
+        type: string
+        example: "1"
+  text-input-req:
+    title: "Text input required"
+    description: |
+      Text input fields are used to gather information from users such as discount codes, credit card number, and cardholder name--this is a required field.
+    fields:
+      - name: label
+        type: string
+        example: "First Name"
+      - name: id
+        type: string
+        example: "1"
+      - name: warning_msg
+        type: string
+        example: "Please provide a first name."
   email-input:
     title: "Email input"
     description: |
@@ -35,3 +84,11 @@ patterns:
     title: "Login fields"
     description: |
       Login fields allow the user to add their username and password in order to login to the website.
+  legend:
+    title: "Legend"
+    description: |
+      Legends must be included with fieldsets.
+    fields:
+      - name: label
+        type: string
+        example: "Payment method"

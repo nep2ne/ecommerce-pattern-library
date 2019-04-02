@@ -1,0 +1,6 @@
+<label class="text-input-label" for="text-input-req-{{include.id}}">{{include.label}}</label>
+<input class="text-field-input text-input-border push" type="text" id="text-input-req-{{include.id}}" required aria-describedby="{{include.id}}-msg-error">
+<p class="error-message kilo island-1-4 push-0" id="{{include.id}}-msg-error">
+  <i class="icon icon-error i-16"><svg><use xlink:href="/images/icons-error.svg#error" /></svg></i>
+  <span class="icon-error-label">{{include.warning_msg}}</span>
+</p>

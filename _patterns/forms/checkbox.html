@@ -1,8 +1,4 @@
-<fieldset class="grid pad-t">
-  <input class="checkbox border checkbox-button unit xs-1 s-1 m-1 l-1 xl-1" type="checkbox" id="id-1" name="checkbox-name">
-  <label class="checkbox-label unit xs-1 s-1 m-1 l-1 xl-1 push" for="id-1">Label 1</label>
-  <p class="error-message kilo island-1-4 push-0" id="code-error">
-    <i class="icon icon-error i-16"><svg><use xlink:href="/images/icons-error.svg#error" /></svg></i>
-    <span class="icon-error-label">Please check a box.</span>
-  </p>
-</fieldset>
+<div class="grid pad-t">
+  <input class="checkbox border checkbox-button unit xs-1 s-1 m-1 l-1 xl-1" type="checkbox" id="check-box-{{include.id}}" name="checkbox-{{include.id}}">
+  <label class="checkbox-label unit xs-1 s-1 m-1 l-1 xl-1 push" for="check-box-{{include.id}}">{{include.label}} <em class="flag-optional kilo normal">(optional)</em></label>
+</div>
