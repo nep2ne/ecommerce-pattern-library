@@ -1,0 +1,88 @@
+---
+layout: default-with-link-to-story
+---
+
+<main class="grid pad-t-2 pad-b-2">
+    <section class="unit xs-1 s-1 m-1 l-1-2 gutter">
+      {% pattern navigations/breadcrumbs %}
+      <div class="grid grid-middle gutter-1-2 pad-t-2">
+        <div class="unit xs-1 m-1-7">
+          <h6 class="ib normal milli push-1-4">Contact</h6>
+        </div>
+        <div class="unit xs-1 m-5-7">
+          <p class="ib push-1-4 milli">johnsmith@email.com</p>
+        </div>
+        <div class="unit xs-1 m-1-7 text-right">
+          <a class="ib ghost bold push-1-4" href="#">change</a>
+        </div>
+        <hr class="unit xs-1 push-1-2">
+      </div>
+      <div class="grid grid-middle gutter-1-2 push-1-4">
+        <div class="unit xs-1 m-1-7">
+          <h6 class="ib normal milli push-1-4">Ship To</h6>
+        </div>
+        <div class="unit xs-1 m-5-7">
+          <p class="ib push-1-4 milli">1123 Abilene Street, Ottawa, ON, K2C2H9, Canada</p>
+        </div>
+        <div class="unit xs-1 m-1-7 text-right">
+          <a class="ib ghost bold push-1-4" href="#">change</a>
+        </div>
+        <hr class="unit xs-1 push-1-2">
+      </div>
+      <div class="grid grid-middle gutter-1-2 push-2">
+        <div class="unit xs-1 m-1-7">
+          <h6 class="ib normal milli push-1-4">Method</h6>
+        </div>
+        <div class="unit xs-1 m-5-7">
+          <p class="ib push-1-4 milli">Standard • $3.94</p>
+        </div>
+        <div class="unit xs-1 m-1-7 text-right">
+          <a class="ib ghost bold push-1-4" href="#">change</a>
+        </div>
+        <hr class="unit xs-1 push-1-2">
+      </div>
+      <form class="gutter-1-2 push" action="index.html" method="POST" novalidate>
+        {% pattern forms/overall-error-message %}
+        <div class="grid grid-middle">
+          <fieldset class="unit xs-1 push-0">
+            {% pattern forms/legend label="Payment Method" %}
+            {% pattern forms/radio-button label="Credit Card" id="1" %}
+          </fieldset>
+          <fieldset class="unit xs-1 push-1-2">
+            {% pattern forms/legend label="Credit Card Information" %}
+            <div class="grid">
+              <div class="unit xs-1 m-1 gutter-1-4">
+                {% pattern forms/text-input-req label="Credit Card Number" id="1" warning_msg="Please provide a valid credit card" %}
+              </div>
+              <div class="unit xs-1 m-1-2 gutter-1-4">
+                {% pattern forms/text-input-req label="Name On Card" id="2" warning_msg="Please provide the name on the card" %}
+              </div>
+              <div class="unit xs-1-2 m-1-4 gutter-1-4">
+                {% pattern forms/text-input-req label="MM/YY" id="4" warning_msg="Please provide the expirey date of the card" %}
+              </div>
+              <div class="unit xs-1-2 m-1-4 gutter-1-4">
+                {% pattern forms/text-input-req label="CSV" id="3" warning_msg="Please enter the CVV code found on the card" %}
+              </div>
+            </div>
+          </fieldset>
+          <fieldset class="unit xs-1 push-1-2 gutter-1-4">
+            {% pattern forms/legend label="Billing Address" %}
+            {% pattern forms/radio-button label="Same as shipping address" id="2" %}
+            <hr class="push-0">
+            {% pattern forms/radio-button label="Use different billing address" id="3" %}
+          </fieldset>
+          <div class="unit xs-1 m-1-2 gutter-1-2 text-center push">
+              {% pattern navigations/previous-page-nav %}
+          </div>
+          <div class="unit xs-1 m-1-2 gutter-1-2 text-center push">
+              {% pattern buttons/form-submit %}
+          </div>
+        </div>
+      </form>
+      {% pattern navigations/form-footer-nav %}
+    </section>
+    <section class="unit xs-1 s-1 m-1 l-1-2 gutter form-background">
+
+    </section>
+ </main>
+ <script scr="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
