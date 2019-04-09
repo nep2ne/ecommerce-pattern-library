@@ -1,0 +1,56 @@
+---
+layout: default-with-link-to-story
+---
+
+<main class="grid pad-t-2 pad-b-2">
+  <section class="unit xs-1 s-1 m-1 l-1-2 unit-push-l-1-2 push">
+    {% pattern sections/checkout-sidebar %}
+  </section>
+  <section class="unit xs-1 s-1 m-1 l-1-2 gutter unit-pull-l-1-2">
+    {% pattern navigations/breadcrumbs %}
+    <div class="grid grid-middle gutter-1-2 pad-t-2">
+      <div class="unit xs-1 m-1-7">
+        <h6 class="ib normal milli push-1-4">Contact</h6>
+      </div>
+      <div class="unit xs-1 m-5-7">
+        <p class="ib push-1-4 milli">johnsmith@email.com</p>
+      </div>
+      <div class="unit xs-1 m-1-7 text-right">
+        <a class="ib ghost bold push-1-4" href="#">change</a>
+      </div>
+      <hr class="unit xs-1 push-1-2">
+    </div>
+    <div class="grid grid-middle gutter-1-2 push-1-4">
+      <div class="unit xs-1 m-1-7">
+        <h6 class="ib normal milli push-1-4">Ship To</h6>
+      </div>
+      <div class="unit xs-1 m-5-7">
+        <p class="ib push-1-4 milli">1123 Abilene Street, Ottawa, ON, K2C2H9, Canada</p>
+      </div>
+      <div class="unit xs-1 m-1-7 text-right">
+        <a class="ib ghost bold push-1-4" href="#">change</a>
+      </div>
+      <hr class="unit xs-1 push-1-2">
+    </div>
+    <form class="island" action="index.html" method="post" novalidate>
+      {% pattern forms/overall-error-message %}
+      <fieldset>
+        {% pattern forms/legend label="Shipping Method" %}
+        <p class="milli">Note: shipping time is only an estimate and is in addition to handling time</p>
+        {% pattern forms/radio-button label="Regular Shipping" id="one" name="shipping" %}
+        <hr class="push">
+        {% pattern forms/radio-button label="Express Shipping" id="two" name="shipping" %}
+      </fieldset>
+    </form>
+    <div class="grid grid-middle push">
+      <div class="unit xs-1 m-1-2 gutter-1-2 push text-center">
+          {% pattern navigations/previous-page-nav %}
+      </div>
+      <div class="unit xs-1 m-1-2 gutter-1-2 push text-center">
+          {% pattern buttons/basic text="Payment" url="/checkout-payment/" %}
+      </div>
+    </div>
+    {% pattern navigations/form-footer-nav %}
+  </section>
+ </main>
+ <script scr="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
