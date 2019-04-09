@@ -31,3 +31,18 @@ patterns:
     title: Sale banner
     description: |
       The sale banner is intended to attract the viewer's attention. It displays information about an ongoing sale event and has an animated hover state.
+    fields:
+      - name: heading
+        type: string
+        example: "Save when you buy multiple planners!"
+      - name: text
+        type: string
+        example: "Valid until May 6, 2019"
+      - name: button_text
+        type: string
+        example: "Save now"
+        required: false
+      - name: button_url
+        type: url
+        example: "/promo/"
+        required: false
