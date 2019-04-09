@@ -89,5 +89,5 @@ mark {
 }
 
 hr {
-  border-color: var(--color-primary);
+  border-color: var(--color-accent-light);
 }
