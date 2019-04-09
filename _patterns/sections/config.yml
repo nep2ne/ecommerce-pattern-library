@@ -12,3 +12,8 @@ patterns:
     title: "Introduction text"
     description: |
       This section is used for a block of text that introduces content on a page and serves to separate content.
+
+  checkout-sidebar:
+    title: "Checkout sidebar"
+    description: |
+      This section is to be used in the checkout form as a sidebar that describes the product being purchased and provides a summary of costs.

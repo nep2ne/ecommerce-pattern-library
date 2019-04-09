@@ -87,7 +87,7 @@
 }
 
 .cart-divider {
-  border-bottom: 3px solid var(--color-secondary-light);
+  border-bottom: 3px solid var(--color-accent-light);
 }
 
 .hover-image:hover, .hover-image:focus {

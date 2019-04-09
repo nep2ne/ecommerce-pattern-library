@@ -24,6 +24,10 @@ patterns:
     title: "Light button"
     description: |
       Light buttons will be used on the form pages, for applying discounts.
+    fields:
+      - name: text
+        type: string
+        example: "Apply"
 
   form-submit:
     title: "Form submit button"
