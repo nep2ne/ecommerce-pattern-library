@@ -87,3 +87,7 @@ mark {
 .form-background {
   background-color: var(--color-accent-light);
 }
+
+hr {
+  border-color: var(--color-primary);
+}
