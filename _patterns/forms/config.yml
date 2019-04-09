@@ -39,6 +39,9 @@ patterns:
       - name: id
         type: string
         example: "1"
+      - name: name
+        type: string
+        example: "shipping"
   quantity-input:
     title: "Quantity input"
     description: |
