@@ -42,6 +42,10 @@ fieldset {
   border-top: none;
 }
 
+.discount {
+  min-height: 2em;
+}
+
 .flag-optional {
   color: var(--color-accent-dark);
 }
