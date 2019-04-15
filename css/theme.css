@@ -91,3 +91,7 @@ mark {
 hr {
   border-color: var(--color-accent-light);
 }
+
+.no-border {
+  border-color: var(--color-secondary-opposite);
+}
