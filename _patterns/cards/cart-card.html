@@ -1,27 +1,29 @@
-<div class="card cart-card grid island-2 wrapper">
-  <div class="unit xs-1 icon i-32 pin-rt island-1-4">
-    <a class="gutter close" href="#"></a>
+<main role="main" id="main" tabindex="0">
+  <div class="card cart-card grid island-2 wrapper">
+    <div class="unit xs-1 icon i-32 pin-rt island-1-4">
+      <a class="gutter close" href="#"></a>
+    </div>
+    <div class="unit xs-1">
+      <div class="cart-divider push">
+        <h2 class="push-1-2">Your cart</h2>
+      </div>
+      <div class="grid cart-divider push">
+        <div class="unit xs-1-6 push">
+          <img class="img-flex" src="/images/products/product2a.jpg" aria-label="photo of product being purchased">
+        </div>
+        <div class="unit xs-5-6 gutter-1-2">
+          <p>Daily Bullet Journal</p>
+          <p>Qty: 1</p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="unit xs-2-3">
+          <h5>Subtotal: $10.00</h5>
+        </div>
+        <div class="unit xs-1-3">
+          {% pattern buttons/basic text="Checkout" url="/checkout/" %}
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="unit xs-1">
-    <div class="cart-divider push">
-      <h2 class="push-1-2">Your cart</h2>
-    </div>
-    <div class="grid cart-divider push">
-      <div class="unit xs-1-6 push">
-        <img class="img-flex" src="/images/products/product2a.jpg" alt="photo of a pretty planner">
-      </div>
-      <div class="unit xs-5-6 gutter-1-2">
-        <p>Daily Bullet Journal</p>
-        <p>Qty: 1</p>
-      </div>
-    </div>
-    <div class="grid">
-      <div class="unit xs-2-3">
-        <h5>Subtotal: $10.00</h5>
-      </div>
-      <div class="unit xs-1-3">
-        {% pattern buttons/basic text="Checkout" url="#" %}
-      </div>
-    </div>
-  </div>
-</div>
+</main>

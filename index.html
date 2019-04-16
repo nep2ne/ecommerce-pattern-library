@@ -3,7 +3,6 @@ layout: default
 ---
 
 <body>
-
   <div>
     {% pattern banners/call-to-action-banner heading="The future belongs to those who plan." text="Get started today." button_text="Shop now" button_url="/products/" %}
   </div>
@@ -16,7 +15,7 @@ layout: default
         <div class="card image-card link-card wrapper">
           <a href="/journals/" aria-label="Image of journals available for sale">
             <div class="relative text-center">
-              <img class="img-flex" src="/images/products/product3.jpg" alt="photo of journals">
+              <img role="presentation" class="img-flex" src="/images/products/product3.jpg" alt="photo of journals">
               <h5 class="absolute link-card-caption pad-t pad-b">Journals</h5>
             </div>
           </a>
@@ -26,7 +25,7 @@ layout: default
         <div class="card image-card link-card wrapper">
           <a href="/notebooks/" aria-label="Image of notebooks available for sale">
             <div class="relative text-center">
-              <img class="img-flex" src="/images/products/product1.jpg" alt="photo of notebooks">
+              <img role="presentation" class="img-flex" src="/images/products/product1.jpg" alt="photo of notebooks">
               <h5 class="absolute link-card-caption pad-t pad-b">Notebooks</h5>
             </div>
           </a>
@@ -36,7 +35,7 @@ layout: default
         <div class="card image-card link-card wrapper">
           <a href="/planners/" aria-label="Image of planners available for sale">
             <div class="relative text-center">
-              <img class="img-flex" src="/images/products/product2c.jpg" alt="photo of planners">
+              <img role="presentation" class="img-flex" src="/images/products/product2c.jpg" alt="photo of planners">
               <h5 class="absolute link-card-caption pad-t pad-b">Planners</h5>
             </div>
           </a>
@@ -55,7 +54,7 @@ layout: default
     </div>
 
     <div class="pad-t push">
-      {% pattern banners/sale-banner %}
+      {% pattern banners/sale-banner heading="Save when you buy multiple planners!" text="Valid until May 6, 2019" url="/promo/" %}
     </div>
   </section>
 </body>

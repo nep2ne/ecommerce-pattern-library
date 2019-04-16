@@ -75,7 +75,7 @@ cite {
   font-style: italic;
 }
 
-p, em, strong, del, ins, abbr, dfn, i, b, s, u {
+p, em, strong, del, ins, abbr, dfn, i, b, s, u th, tr, td, .table-text {
   color: var(--color-primary);
 }
 
