@@ -16,9 +16,5 @@
   height: 1.5em;
   border-radius: 12px;
   color: var(--color-primary);
-  width: 200px;
-}
-
-.search-btn:hover .search-bar-footer {
-
+  width: 150px;
 }

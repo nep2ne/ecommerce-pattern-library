@@ -3,7 +3,7 @@
     <div class="unit xs-1 s-1 unit-m-hidden unit-l-hidden unit-xl-hidden text-center">
       <h1 class="yotta">Lovely Planners</h1>
     </div>
-    <a href="/index.html" class="unit unit-xs-hidden unit-s-hidden m-1-5 l-1-5 xl-1-5 gutter">
+    <a href="/index.html" class="unit unit-xs-hidden unit-s-hidden m-1-5 l-1-5 xl-1-5 gutter" aria-label="Click here to go back to the home page.">
       <svg class="logo" xmlns="http://www.w3.org/2000/svg" width="3.6in" height="3.6in" viewBox="0 0 256 256">
         <title>Lovely Planners logo</title>
         <description>The logo of the Lovely Planners company, which depicts a fountain pen nib with a heart in its centre, and is accompanied by a wordmark</description>
@@ -20,25 +20,25 @@
     </a>
     <ul class="unit xs-1 s-1 m-3-5 l-3-5 xl-3-5 text-center push-1-2 list-group-inline">
       <li class="inline gutter-1-4 {% if page.highlight_nav == 'home' %}current{% endif %}">
-        <a class="btn btn-ghost btn-text inline gutter-1-2" href="/index/">Home</a>
+        <a class="btn btn-ghost btn-text inline gutter-1-2" href="/index/" aria-label="Click here to navigate to the home page.">Home</a>
       </li>
       <li class="inline gutter-1-4 {% if page.highlight_nav == 'products' %}current{% endif %}">
         <div class="dropdown-nav relative ib">
-          <a class="dropbtn-nav btn btn-ghost btn-text inline gutter-1-2" href="/products/">Shop</a>
+          <a class="dropbtn-nav btn btn-ghost btn-text inline gutter-1-2" href="/products/" aria-label="Click here to navigate to the product list page.">Shop</a>
           <div class="dropdown-nav-content pin-rc block">
-            <a class="block" href="/journals/">Journals</a>
-            <a class="block" href="/notebooks/">Notebooks</a>
-            <a class="block" href="/planners/">Planners</a>
+            <a class="block" href="/journals/" aria-label="Click here to navigate to the products page about journals.">Journals</a>
+            <a class="block" href="/notebooks/" aria-label="Click here to navigate to the products page about notebooks.">Notebooks</a>
+            <a class="block" href="/planners/" aria-label="Click here to navigate to the products page about planners.">Planners</a>
           </div>
       </li>
       <li class="inline gutter-1-4 {% if page.highlight_nav == 'story' %}current{% endif %}">
-        <a class="btn btn-ghost btn-text inline gutter-1-2" href="/story/">Story</a>
+        <a class="btn btn-ghost btn-text inline gutter-1-2" href="/story/" aria-label="Click here to navigate to the our-story page.">Story</a>
       </li>
     </ul>
     <div class="relative ib unit xs-1 s-1 m-1-5 l-1-5 xl-1-5 text-center valign-middle push-1-2">
       <div class="dropdown-search ib icon-hover">
         <div class="drop-btn push-1-8 icon i-32">
-          <a href="#">
+          <a href="#" aria-label="Click here to search the content of the website.">
             <svg id="search-icon" width="2.4in" height="2.1in" viewBox="0 0 171.5 149.9">
               <title>Search icon</title>
               <description>Clickable icon of a magnifying glass that allows the user to enter a search term in the search field</description>
@@ -48,12 +48,12 @@
         </div>
         <div class="dropdown-search-content">
           <form class="search-bar">
-            <input class="search-field milli" type="search" id="search">
+            <input aria-label="Click here to enter a search term." class="search-field milli" type="search" id="search">
           </form>
         </div>
       </div>
       <div class="ib icon i-32">
-        <a href="/cart/">
+        <a href="/cart/" aria-label="Click here to navigate to your shopping cart.">
           <svg class="icon-hover" id="cart-icon" width="2.8in" height="2.2in" viewBox="0 0 200.6 158.4">
             <title>Cart Icon</title>
             <description>Clickable icon of a shopping cart that allows the user to view their current items to be purchased</description>

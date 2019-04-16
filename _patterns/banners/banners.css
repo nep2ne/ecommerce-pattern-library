@@ -15,7 +15,7 @@
 }
 
 .hover-banner {
-  transition: background-color 500ms ease-out .3s;
+  transition: background-color 200ms ease-out .2s;
   background-color: var(--color-secondary-light);
 }
 
